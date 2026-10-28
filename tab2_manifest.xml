@@ -4,26 +4,21 @@
   <!-- Vendor Blobs -->
   <project name="MightyM17/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="master" clone-depth="5" />
   <project name="Unlegacy-Android/proprietary_vendor_ti" path="vendor/ti" remote="github" revision="stable" />
-  <project name="Unlegacy-Android/proprietary_vendor_widevine" path="vendor/widevine" remote="github" revision="aosp-9.0" />
 
   <!-- Device Trees -->
-  <project name="MrSuperBuddy/android_device_samsung_espresso3g" path="device/samsung/espresso3g" remote="github" revision="lineage-16.0" />
+  <project name="meanwhile131/android_device_samsung_espresso3g" path="device/samsung/espresso3g" remote="github" revision="lineage-16.0" />
 
   <!-- Galaxy Tab 2 Common Repos -->
-  <project name="MrSuperBuddy/android_device_samsung_espressowifi" path="device/samsung/espressowifi" remote="github" revision="lineage-16.0" />
+  <project name="meanwhile131/android_device_samsung_espressowifi" path="device/samsung/espressowifi" remote="github" revision="lineage-16.0" />
   <project name="MightyM17/android_hardware_ti_omap4" path="hardware/ti/omap4" remote="github" revision="lineage-16.0" />
 
   <!-- Kernel Repo -->
-  <project name="MightyM17/android_kernel_ti_omap4" path="kernel/ti/omap4" remote="github" revision="3.4/common" />
+  <project name="meanwhile131/android_kernel_ti_omap4" path="kernel/ti/omap4" remote="github" revision="3.4/common" />
 
-  <!-- prebuilt kernel -->
-  <project name="MrSuperBuddy/android_device_samsung_espresso3g-kernel" path="device/samsung/espresso3g-kernel" remote="github" revision="3.4/common" />
-  <project name="MrSuperBuddy/android_device_samsung_espressowifi-kernel" path="device/samsung/espressowifi-kernel" remote="github" revision="3.4/common" />
-  
   <!-- Patches -->
   <remove-project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
-  <project name="MightyM17/android_system_core" path="system/core" remote="github" revision="lineage-16.0" />
+  <project name="meanwhile131/android_system_core" path="system/core" remote="github" revision="lineage-16.0" />
   <remove-project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
-  <project name="MightyM17/android_frameworks_av" path="frameworks/av" remote="github" revision="lineage-16.0" />
+  <project name="meanwhile131/android_frameworks_av" path="frameworks/av" remote="github" revision="lineage-16.0" />
 
 </manifest>
