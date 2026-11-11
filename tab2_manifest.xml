@@ -13,7 +13,7 @@
   <project name="MightyM17/android_hardware_ti_omap4" path="hardware/ti/omap4" remote="github" revision="lineage-16.0" />
 
   <!-- Kernel Repo -->
-  <project name="meanwhile131/android_kernel_ti_omap4" path="kernel/ti/omap4" remote="github" revision="3.4/common" />
+  <project name="meanwhile131/android_kernel_ti_omap4" path="kernel/ti/omap4" remote="github" />
 
   <!-- Patches -->
   <remove-project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
